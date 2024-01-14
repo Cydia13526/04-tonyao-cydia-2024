@@ -1,5 +1,7 @@
 import json
-from config.dynamo_db_client import get_dynamo_db_client
+import sys, os
+sys.path.append(os.getcwd() + "/src")
+from pj_config.dynamo_db_client import get_dynamo_db_client
 
 dynamodb = get_dynamo_db_client()
 
