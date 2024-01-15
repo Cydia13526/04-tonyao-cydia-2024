@@ -13,4 +13,4 @@
 ###### ------------ To access our main project ------------
 ###### 1. pip install jupyter
 ###### 2. jupyter notebook
-###### 3. Inside jupyter notebook, click project.ipynb
+###### 3. Inside jupyter notebook, click project.ipynb 
