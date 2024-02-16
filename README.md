@@ -11,6 +11,6 @@
 ###### 3. Run python command "python src/database/upload_trending_data.py" to upload data to DynamoDB
 
 ###### ------------ To access our main project ------------
-###### 1. pip install -r requirements.txt
+###### 1. pip install -r requirements.txt (For python 2)/ python3 -m notebook (For python3)
 ###### 2. jupyter notebook
 ###### 3. Inside jupyter notebook, click project.ipynb

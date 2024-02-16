@@ -7,11 +7,11 @@ def encrypt_access_key():
         file.write(key)
     cipher_suite = Fernet(key)
 
-    aws_access_key = cipher_suite.encrypt('AKIA45YHIOUEL552LTSU'.encode())
+    aws_access_key = cipher_suite.encrypt('look_for_owner'.encode())
     with open("aws_access_key.txt", "wb") as file:
         file.write(aws_access_key)
 
-    aws_secret_key = cipher_suite.encrypt('7TvJooiPPitNepeSMiNofOaASyx/NU2h+/8a1kgA'.encode())
+    aws_secret_key = cipher_suite.encrypt('look_for_owner'.encode())
     with open("aws_secret_key.txt", "wb") as file:
         file.write(aws_secret_key)
 
